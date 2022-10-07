@@ -1,0 +1,112 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    background: rgba(231,228,228);
+    border-bottom: 1 px solid rgb(141, 138, 138);
+}
+
+.menu nav ul a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size:19px;
+    color:black;
+    font-weight:600;
+    padding: 10px;
+}
+.menu nav ul a:hover{
+   background: rgba(107,107,107,0.712);
+   transition:0.5s;
+   border-radius: 5px;
+
+}
+
+.menu nav a img{
+    width:250px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.banner {
+    background-image: url(../Imagenes/tarjeta.png);
+    margin: 0 auto;
+    display: flex;
+
+  
+ }
+
+ h1{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size:19px;
+    color:green;
+    font-weight:600;
+    padding: 50px;
+    font: oblique bold 180% cursive;
+      
+      
+ }
+
+ .container{
+    margin: 0 auto;
+    max-width: 450px;
+    width: 100%;
+    position: relative;
+    
+ }
+ .row{
+    background: #e6e6e6ee;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 150px 0;
+    box-Shadow: 0 0 32px 0 rgba(0,0,0,0.2) 0 5px 5px 0 rgba(0,0,0,0.24)
+ }
+ .row input[type="text"],
+ .row input[type="fecha"],
+ .row input[type="cuotas"]{
+    width: 90%;
+    border: 1px solid #ccc;
+    background:#FFF ;
+    padding: 10px;}
+
+    .row button[type="submit"] {
+        width: 100%;
+        background: #72747a;
+        color: #FFF;
+        font-size: 15px;
+        border: none;
+        margin-top: 10px;
+        padding: 10px;
+      }
+      
+      .row button[type="submit"]:hover {
+        background: #586973;
+      }
+      
+      .row button[type="submit"]:active {
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+      }
+      
+      .row input:focus
+      {
+        outline: 0;
+        border: 1px solid #aaa;
+      }
+
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 32px;
+        color: black;
+        background: #899ba0;
+      }
+
+      h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 100;
+      }
+
+      h3{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 100}
