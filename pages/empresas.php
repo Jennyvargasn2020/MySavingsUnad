@@ -17,9 +17,9 @@
                 <a href="#"><img src="../Imagenes/logo.png" alt=""></a>
                 <ul>
                     <a href="../Index.html">Home</a>
-                    <a href="../pages/empresas.html">Empresas</a>
-                    <a href="../pages/personas.html">Personas</a>
-                    <a href="../pages/atencionusuario.html">Atención al Usuario</a>
+                    <a href="../pages/empresas.php">Empresas</a>
+                    <a href="../pages/personas.php">Personas</a>
+                    <a href="../pages/atencionusuario.php">Atención al Usuario</a>
                 </ul>
             </nav>
         </div>

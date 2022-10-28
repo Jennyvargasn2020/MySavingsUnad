@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="shortcut icon" href="../imagenes/LogoDinero.png" type="image/x-icon">
-    <title>My Savings | Préstamos</title>
+    <title>My Savings | Prestamos</title>
 </head>
 
 <body>
@@ -17,20 +16,16 @@
                 <a href="#"><img src="../Imagenes/logo.png" alt=""></a>
                 <ul>
                     <a href="../Index.html">Home</a>
-                    <a href="../pages/empresas.html">Empresas</a>
-                    <a href="../pages/personas.html">Personas</a>
-                    <a href="../pages/atencionusuario.html">Atención al Usuario</a>
+                    <a href="../pages/empresas.php">Empresas</a>
+                    <a href="../pages/personas.php">Personas</a>
+                    <a href="../pages/atencionusuario.php">Atención al Usuario</a>
                 </ul>
             </nav>
         </div>
     </header>
-    <div class="container">
+    </body>
 
-        <h1>Bienvenido a la sucursal personas</h1>
-            
-    </div>
+<?php include("form.php") ?>
 
-   
-</body>
 
-</html>
+

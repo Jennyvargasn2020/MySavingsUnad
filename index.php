@@ -24,22 +24,20 @@
    
 
     <?php
-        echo '<link href="../css/index.css" type="text/css" rel="stylesheet">';
-        $prestamo = 0;  
         $inicial = 0; 
         $cuotas = 0;
         $SaldoPrestamo =0;
         $ValorCuota = 0;
-        $prestamo = $_POST["prestamo"];
-        $cuotas = $_POST["cuotas"];
-        $inicial = 0.30 * $prestamo;
-        $SaldoPrestamo = (0.70 * $prestamo) + (0.0093 * $cuotas);
-        $ValorCuota = round($SaldoPrestamo/$cuotas, 3);
+        $valorPrestamo = $_POST['valorPrestamo'];
+        $cuotas = $_POST['cuotas'];
+        $inicial = 0.30 *  $valorPrestamo;
+        $SaldoPrestamo = (0.70 *  $valorPrestamo) + (0.0093 * $cuotas);
+       
         //$fecha = date("Y-m-d", $_POST["fecha"]);
-        $fecha = $_POST["fecha"];
+        $fechaCuota = $_POST['fechaCuota'];
         
         //$fecha = strtotime(str_replace('-', '/', $fecha));
-        $fechaFinal = date("Y-m-d",strtotime($fecha. "+$cuotas month"));
+        $fechaFinal = date("Y-m-d",strtotime($fechaCuota. "+$cuotas month"));
 
         
         //echo date("m-d-Y",strtotime($fecha."+ 1 month"));
@@ -85,3 +83,4 @@
     </div>
 </body>
 </html>
+
